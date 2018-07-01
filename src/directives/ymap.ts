@@ -1,11 +1,11 @@
 // tslint:disable-next-line:max-line-length
-import { Component, ElementRef, EventEmitter, OnChanges, OnDestroy, OnInit, SimpleChanges, Input, Output } from '@angular/core';
-import { Subscription } from 'rxjs/Subscription';
+import {Component, ElementRef, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core';
+import {Subscription} from 'rxjs/Subscription';
 
-import { YaMapsAPIWrapper } from '../ya-maps-api-wrapper';
-import { MarkerManager } from '../services/managers/marker-manager';
-import { ClasterManager } from '../services/managers/claster-manager';
-import { ObjectManagerManager } from '../services/managers/objectManager-manager';
+import {YaMapsAPIWrapper} from '../ya-maps-api-wrapper';
+import {MarkerManager} from '../services/managers/marker-manager';
+import {ClasterManager} from '../services/managers/claster-manager';
+import {ObjectManagerManager} from '../services/managers/objectManager-manager';
 import * as mapTypes from '../ya-maps-types';
 
 @Component({

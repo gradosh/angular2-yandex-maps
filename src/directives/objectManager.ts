@@ -1,12 +1,8 @@
-import {
-  Directive, EventEmitter, OnChanges, OnDestroy, SimpleChange,
-  AfterContentInit, ContentChildren, QueryList, Input
-} from '@angular/core';
-import { Subscription } from 'rxjs/Subscription';
+import {Directive, Input, OnChanges, SimpleChange} from '@angular/core';
+import {Subscription} from 'rxjs/Subscription';
 
-import { YaMapsAPIWrapper } from '../ya-maps-api-wrapper';
-import * as mapTypes from '../ya-maps-types';
-import { ObjectManagerManager } from '../services/managers/objectManager-manager';
+import {YaMapsAPIWrapper} from '../ya-maps-api-wrapper';
+import {ObjectManagerManager} from '../services/managers/objectManager-manager';
 
 let markerId = 0;
 

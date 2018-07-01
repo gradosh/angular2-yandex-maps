@@ -1,11 +1,8 @@
 // tslint:disable-next-line:max-line-length
-import { Directive, EventEmitter, OnChanges, OnDestroy, SimpleChange, AfterContentInit, ContentChildren, QueryList, Input } from '@angular/core';
-import { Subscription } from 'rxjs/Subscription';
+import {Directive, Input, OnChanges, OnDestroy, SimpleChange} from '@angular/core';
 
-import { YaMapsAPIWrapper } from '../ya-maps-api-wrapper';
-import * as mapTypes from '../ya-maps-types';
-import { ClasterManager } from '../services/managers/claster-manager';
-import { Claster, MarkerClaster } from '../ya-maps-types';
+import {YaMapsAPIWrapper} from '../ya-maps-api-wrapper';
+import {ClasterManager} from '../services/managers/claster-manager';
 
 let clasterId = 0;
 

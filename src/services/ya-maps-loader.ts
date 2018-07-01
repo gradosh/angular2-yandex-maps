@@ -1,5 +1,5 @@
-import { Inject, Injectable, OpaqueToken } from '@angular/core';
-import { DocumentRef, WindowRef } from './../utils/browser-globals';
+import {Injectable} from '@angular/core';
+import {DocumentRef, WindowRef} from './../utils/browser-globals';
 
 @Injectable()
 export class YaMapsAPILoader {
